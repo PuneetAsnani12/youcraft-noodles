@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homepage, .countrypage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #eee;
+}
+
+.brandpage {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.page404 {
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  align-items: center;
+  color: tomato;
+}
